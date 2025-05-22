@@ -22,6 +22,7 @@ public class CarrinhoDeCompras {
                     itensParaRemover.add(item);
                 }
             }
+            carrinho.removeAll(itensParaRemover);
         }
         System.out.println("O carrinho está vazio!");
     }
