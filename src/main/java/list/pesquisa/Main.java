@@ -7,13 +7,17 @@ public class Main {
         minhaSoma.adicionarNumero(0);
         minhaSoma.adicionarNumero(6);
         minhaSoma.adicionarNumero(4);
+        minhaSoma.adicionarNumero(-12);
 
         minhaSoma.exibirNumeros();
 
-        minhaSoma.calcularSoma();
+        System.out.println(minhaSoma.calcularSoma());
 
-        minhaSoma.encontrarMaiorNumero();
+        System.out.println(minhaSoma.encontrarMaiorNumero());
 
-        minhaSoma.encontrarMenorNumero();
+        System.out.println(minhaSoma.encontrarMenorNumero());
+
+
+
     }
 }

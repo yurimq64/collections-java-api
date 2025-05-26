@@ -24,7 +24,7 @@ public class SomaNumeros {
     }
 
     public Integer encontrarMaiorNumero() {
-        int maiorNumero = 0;
+        int maiorNumero = Integer.MIN_VALUE;
         if (!numeros.isEmpty()) {
             for (Integer integer : numeros) {
                 if (integer > maiorNumero) {
@@ -35,7 +35,7 @@ public class SomaNumeros {
     }
 
     public Integer encontrarMenorNumero() {
-        int menorNumero = 0;
+        int menorNumero = Integer.MAX_VALUE;
         if (!numeros.isEmpty()) {
             for (Integer integer : numeros) {
                 if (integer < menorNumero) {
@@ -48,7 +48,8 @@ public class SomaNumeros {
     public void exibirNumeros() {
         if (!numeros.isEmpty()) {
             System.out.println(numeros);
+        } else {
+            System.out.println("A lista está vazia");
         }
-        System.out.println("A lista está vazia");
     }
 }
