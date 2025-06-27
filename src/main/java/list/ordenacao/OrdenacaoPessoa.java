@@ -11,7 +11,7 @@ public class OrdenacaoPessoa {
         this.listaPessoas = new ArrayList<>();
     }
 
-    public void adicionarPessoas(String nome, int idade, float altura) {
+    public void adicionarPessoa(String nome, int idade, float altura) {
         listaPessoas.add(new Pessoa(nome, idade, altura));
     }
 
